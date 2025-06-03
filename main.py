@@ -7,7 +7,7 @@ app = Flask(__name__)
 # === KONFIGURATION ===
 CLIENT_ID = "1379513076189106268"
 CLIENT_SECRET = "ZxR3kULDCUoG4GgFtTOD59mEQT-XDyxN"  # Direkt eingetragen
-REDIRECT_URI = "https://deine-url.de/auth"  # Ersetze mit Railway-URL
+REDIRECT_URI = "https://astonishing-mercy.up.railway.app/auth"  # Ersetze mit Railway-URL
 USERS_FILE = "users.json"
 
 def save_user(data):
